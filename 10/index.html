@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>10</title>
+</head>
+
+<body>
+  <h1>Sorting numbers</h1>
+  <p id="demo"> ["line n°1", "bus n°24", "tramway n°3", "line n°2", "bus n°20",
+    "tramway n°312", "line n°130", "bus n°28", "tramway n°20", "line n°101"].</p>
+  <script>
+    const transport = ["line n°1", "bus n°24", "tramway n°3", "line n°2", "bus n°20",
+      "tramway n°312", "line n°130", "bus n°28", "tramway n°20", "line n°101"
+    ]
+
+    //Filter the strings with word line
+    //filter acts as a function looping through the array
+    let result = transport.filter(function(a) {
+      return a.indexOf('line') > -1
+    });
+    //returns all indexes containing the word line
+    console.log(result);
+    // sorting the new array by numbers
+    result.sort();
+    console.log(result);
+
+
+    // // This is a function that sorts n array of number or letters
+
+    // function sortNumericVector(arr) {
+    //   return arr.sort(function(a, b) {
+    //     return a - b
+    //   });
+    // }
+
+    // console.log(sortNumericVector([25, 11, 5]));
+  </script>
+</body>
+
+</html>

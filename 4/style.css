@@ -1,0 +1,13 @@
+body{
+  background-color: blue;
+  height:1000px;
+}
+#box{position: absolute;
+  display:none;
+  /*top? for styling*/
+  height: 200px;
+width:200px;
+background-color: white;
+text-align: center;
+margin: 200px auto;
+padding:20px;}
